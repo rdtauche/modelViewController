@@ -2,6 +2,38 @@ header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: lightgrey;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: lightgrey;
+  padding-left: 100px;
+  padding-right: 50px;
+
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: lightgrey;
+  padding-left: 100px;
+  padding-right: 50px;
+
+}
+
 .no-button {
   background: none;
   border: none;
